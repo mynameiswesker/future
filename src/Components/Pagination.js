@@ -14,7 +14,7 @@ const Pagination =({postPerPaige,totalPosts,paginate}) => {
                 {paigeNumbers.map(number=>{
                     return(
                         <li key={number}>
-                            <a onClick={()=> paginate(number)} href="!#" className="item">{number} </a>
+                            <a onClick={()=> paginate(number)} href="#" className="item">{number} </a>
                         </li>
                     )
                 })}
